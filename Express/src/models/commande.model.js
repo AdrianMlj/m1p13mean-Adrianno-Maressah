@@ -47,7 +47,6 @@ const commandeSchema = new mongoose.Schema({
   mode_livraison: {
     type: String,
     enum: ['retrait_boutique', 'livraison_standard', 'livraison_express'],
-    default: 'livraison_standard'
   },
   notes: {
     type: String,
